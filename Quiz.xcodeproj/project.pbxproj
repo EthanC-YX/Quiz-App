@@ -11,7 +11,7 @@
 		AAB261802A219CD9005E0AC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB2617F2A219CD9005E0AC1 /* ContentView.swift */; };
 		AAB261822A219CDB005E0AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB261812A219CDB005E0AC1 /* Assets.xcassets */; };
 		AAB261852A219CDB005E0AC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB261842A219CDB005E0AC1 /* Preview Assets.xcassets */; };
-		AAC3A0322A24F8B200BD72A3 /* kahoot_lobby_music_80s_edition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAC3A0312A24F8B200BD72A3 /* kahoot_lobby_music_80s_edition.mp3 */; };
+		AADD757D2A270D860047A1F2 /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AADD757C2A270D860047A1F2 /* BackgroundMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		AAB261842A219CDB005E0AC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AAB2618A2A219CDC005E0AC1 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB261942A219CDC005E0AC1 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAC3A0312A24F8B200BD72A3 /* kahoot_lobby_music_80s_edition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kahoot_lobby_music_80s_edition.mp3; path = ../../kahoot_lobby_music_80s_edition.mp3; sourceTree = "<group>"; };
+		AADD757C2A270D860047A1F2 /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BackgroundMusic.mp3; path = ../../BackgroundMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 				AAB2617D2A219CD9005E0AC1 /* QuizApp.swift */,
 				AAB2617F2A219CD9005E0AC1 /* ContentView.swift */,
 				AAB261812A219CDB005E0AC1 /* Assets.xcassets */,
-				AAC3A0312A24F8B200BD72A3 /* kahoot_lobby_music_80s_edition.mp3 */,
+				AADD757C2A270D860047A1F2 /* BackgroundMusic.mp3 */,
 				AAB261832A219CDB005E0AC1 /* Preview Content */,
 			);
 			path = Quiz;
@@ -209,8 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADD757D2A270D860047A1F2 /* BackgroundMusic.mp3 in Resources */,
 				AAB261852A219CDB005E0AC1 /* Preview Assets.xcassets in Resources */,
-				AAC3A0322A24F8B200BD72A3 /* kahoot_lobby_music_80s_edition.mp3 in Resources */,
 				AAB261822A219CDB005E0AC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = U2GTN7TUCC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -400,12 +401,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hi.Quiz;
+				PRODUCT_BUNDLE_IDENTIFIER = QuizApp.something;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -421,6 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = U2GTN7TUCC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -428,12 +431,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hi.Quiz;
+				PRODUCT_BUNDLE_IDENTIFIER = QuizApp.something;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
